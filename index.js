@@ -9,7 +9,7 @@ const PORT = 3001;
 app.use(express.json());
 app.use(cors());
 
-mongoose.connect("mongodb+srv://kandukuribalavikash20csd:balavikash@cluster0.ev0qb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+mongoose.connect("Connection string ")
   .then(() => console.log("MongoDB Connected"))
   .catch((err) => console.error("Error in connecting to DB:", err));
 
